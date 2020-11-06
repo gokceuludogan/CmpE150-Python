@@ -6,7 +6,9 @@ Write a program that takes 3 integers from the user and then prints the sum, mea
 
 | Input    | Output           |
 | -------- | ---------------- |
-| 13 27 14 | 54 18 4914|
+| 13 27 14 | 54 18.00 4914|
+
+<br>
 
 ## Question 2
 
@@ -20,6 +22,8 @@ Using the formula below of compound interest, take the **principal amount (A)**,
 | 1000 12 5 | 1762.34 |
 | 500 12 5  | 881.17  |
 
+<br>
+
 ## Question 3
 
 Write a program which takes radius of a circle from user and calculate the perimeter and surface of the defined circle.
@@ -31,6 +35,8 @@ Write a program which takes radius of a circle from user and calculate the perim
 | 4     | 25.1327412287 50.2654824574 |
 | 8     | 50.2654824574 201.06192983  |
 
+<br>
+
 ## Question 4
 
 Write a program that takes a positive number from user and calculate the sum from 0 to that positive number.
@@ -41,6 +47,8 @@ Write a program that takes a positive number from user and calculate the sum fro
 | ----- | ------ |
 | 10    | 55     |
 | 5     | 15     |
+
+<br>
 
 ## Question 5
 
@@ -54,6 +62,8 @@ Write a program which takes the values in **Ohm** of two parallel resistances an
 | 2 8 40 | 20 5   |
 | 5 5 10 | 2 2    |
 
+<br>
+
 ## Question 6
 
 Write a program which replaces the values of two integers.
@@ -61,6 +71,8 @@ Write a program which replaces the values of two integers.
 | Input | Output |
 | ----- | ------ |
 | 5 10  | 10 5   |
+
+<br>
 
 ## Question 7
 
@@ -70,6 +82,8 @@ Write a program which takes a character and prints its ASCII value.
 | ----- | ------ |
 | A     | 65     |
 | E     | 69     |
+
+<br>
 
 ## Question 8
 
@@ -81,6 +95,8 @@ Write a program which takes a lowercase letter as input and print the uppercase 
 | b     | B      |
 | B     | B      |
 
+<br>
+
 ## Question 9
 
 Write a program that calculates the volume of a sphere by taking its radius from user.
@@ -89,6 +105,8 @@ Write a program that calculates the volume of a sphere by taking its radius from
 | ----- | ------------- |
 | 3     | 113.097335529 |
 | 6     | 904.778684234 |
+
+<br>
 
 ## Question 10
 
@@ -102,6 +120,7 @@ Write a program that calculates the amount of seconds in a given period of years
 | 5 2 4 3 0 | 163220400 |
 | 1 1 1 1 1 | 34218060  |
 
+<br>
 
 ## Question 11
 

@@ -8,9 +8,11 @@ num2 = int(input("Please enter second number: "))
 num3 = int(input("Please enter third number: "))
 
 print("Sum is: " + str(num1+num2+num3))
-print("Mean is: " + str((num1+num2+num3)/3))
-print("Multiple is: " + str(num1*num2*num3))
+print("Mean is: %.2f" % ((num1+num2+num3)/3))
+print("Multiple is: %d" % (num1*num2*num3))
 ```
+
+<br>
 
 ## Q2
 ```python
@@ -20,6 +22,8 @@ n = int(input("Plese enter the duration in months: "))
 
 print("Final amount is: " + str(A*(1+i/100)**n))
 ```
+
+<br>
 
 ## Q3
 ```python
@@ -31,6 +35,8 @@ print("The perimeter of the circle with given radius is: " + str(2*pi*r))
 print("The surface of the circle with given radius is: " + str(pi*r**2))
 ```
 
+<br>
+
 ## Q4
 ```python
 n = int(input("Plese enter a number: "))
@@ -38,6 +44,8 @@ n = int(input("Plese enter a number: "))
 print("The sum till the given number is: " + str((n*(n+1))/2))
 
 ```
+
+<br>
 
 ## Q5
 ```python
@@ -49,6 +57,8 @@ print("The current in R1 is: " + str(v/r1))
 print("The current in R2 is: " + str(v/r2))
 ```
 
+<br>
+
 ## Q6
 ```python
 a = int(input("Plese enter the first number: "))
@@ -59,16 +69,18 @@ temp = a
 a = b
 b = temp
 
-# Version 2 (Python Variation):
-# a, b = b, a
-
-# Version 3 (Without using extra variable):
+# Version 2 (Without using extra variable):
 # a = a + b
 # b = a - b
 # a = a - b
 
+# Version 3 (Python Variation):
+# a, b = b, a
+
 print("Here they are inversed: " + str(a) + " " + str(b))
 ```
+
+<br>
 
 ## Q7
 ```python
@@ -76,6 +88,8 @@ ch = (input("Enter a character: "))
 
 print("The ascii value of " + ch + " is: " + str(ord(ch)))
 ```
+
+<br>
 
 ## Q8
 ```python
@@ -86,6 +100,8 @@ ul = chr(ord(ll) + ord("A") - ord("a"))
 print("Here is the upparcase version: " + ul)
 ```
 
+<br>
+
 ## Q9
 ```python
 import math
@@ -94,6 +110,8 @@ r = int(input("Plese enter a radius: "))
 
 print("The volume of the sphere with the given radius is: " + str(4.0/3*math.pi*math.pow(r,3)))
 ```
+
+<br>
 
 ## Q10
 ```python
@@ -114,6 +132,7 @@ summ += mi * 60
 print("Given duration is: " + str(summ)+" seconds.")
 ```
 
+<br>
 
 ## Q11
 ```python
