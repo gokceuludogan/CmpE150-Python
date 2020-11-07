@@ -18,3 +18,7 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 - Variables
 - Expressions
 - Statements
+
+### [Week 2](week02/)
+
+- Conditional Execution
