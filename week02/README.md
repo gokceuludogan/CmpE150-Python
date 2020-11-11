@@ -107,10 +107,10 @@ Write a program that calculates the body mass index with the given formula and p
 | Obese Class II (Severely obese)       | 35-40   |
 | Obese Class III (Very severely obese) | 40+     |
 
-| Input  | Output                            |
-| ------ | --------------------------------- |
-| 83 174 | 28.7<br />Overweight              |
-| 73 174 | 24.1<br />Normal (healthy weight) |
+| Input   | Output                            |
+| ------- | --------------------------------- |
+| 83 1.74 | 27.4<br />Overweight              |
+| 73 1.74 | 24.1<br />Normal (healthy weight) |
 
 ## Question 9
 
@@ -134,8 +134,8 @@ The expression under the square root is known as **the discriminant.**
 
 *Note: Ignore imaginary roots.*
 
-| Input  | Output |
-| ------ | ------ |
-| 1 5 6  | -3 -2  |
-| 1 -4 4 | 2      |
+| Input  | Output    |
+| ------ | --------- |
+| 1 5 6  | -2.0 -3.0 |
+| 1 -4 4 | 2.0       |
 
