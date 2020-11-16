@@ -22,3 +22,7 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 ### [Week 2](week02/)
 
 - Conditional Execution
+
+### [Week 3](week03/)
+
+- Loops and Iterations
