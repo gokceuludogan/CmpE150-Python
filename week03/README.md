@@ -68,7 +68,7 @@ Write a program that reads a number N, then reads N more numbers. Calculate the 
 
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
-| 4<br>4 9 5 2  | 4.0 |
+| 4<br>4 9 5 2  | 5.0 |
 | 1<br>8 | 8.0  |
 
 
@@ -107,7 +107,7 @@ F_0 = 0, F_1 = 1, F_n = F\_(n-2) + F\_(n-1)
 
 ## Question 9 - Second Largest
 
-Write a program that will take integers as inputs until the user enters 0. Then prints the difference between of largest two numbers among given inputs.
+Write a program that will take nonnegative integers as inputs until the user enters 0. Then prints the difference between of largest two numbers among given inputs.
 
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
