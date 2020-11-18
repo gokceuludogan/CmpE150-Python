@@ -112,7 +112,7 @@ Write a program that will take nonnegative integers as inputs until the user ent
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
 | 12 25 3 8 0 | 13 |
-| 15 1 2 3 8 -2 5 0  | 7 |
+| 15 1 2 3 8 5 0  | 7 |
 
 
 ## Question 10 - Digiiiits
