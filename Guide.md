@@ -87,7 +87,7 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
 
    When the Teaching.Codes plugin appears in your PyCharm, check your plugin version and make sure that its version matches with the extension of downloaded file (Version: 11.0.0.XXXX)
 
-![Teaching.Codes New Version](figures/Teaching.Codes%20New%20Version.png)
+  ![Teaching.Codes New Version](figures/Teaching.Codes%20New%20Version.png)
 
 ## Quiz Reminders <a name="quiz-reminder"></a>
 
@@ -125,7 +125,7 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
     * Right click on **Question.html** file
     * Click **Open in Browser.** 
 
-    <img src="figures/HTML_Browser.png" alt="1606070972162" style="zoom:50%;" />
+      <img src="figures/HTML_Browser.png"  style="zoom:50%;" />
 
   * If there are multiple questions and you see the same description for both questions or still blank page. 
 
@@ -133,7 +133,7 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
 
     * Choose "**Show in Explorer/Finder**". This step open the folder that contains the html file.
 
-      <img src="figures/HTML_explorer.png" style="zoom: 50%;" />
+      <img src="figures/HTML_Explorer.png" style="zoom: 50%;" />
 
     * From the folder, open the html file.
 
