@@ -1,8 +1,17 @@
-***Table of Contents***
+# Table of Contents
+1. [Installation Guide](#installation)
+2. [Teaching.Codes Quiz Guide](#tc-quiz)
+3. [Teaching.Codes Plugin Update](#tc-update)
+4. [Quiz Reminders](#quiz-reminder)
+5. [Quiz Problems](#quiz-problem)
+   * [Can't see the button names](#button)
+   * [Deleted the contents of Main.py](#mainpy)
+   * [Multiple questions](#multiple-question)
+   * [Can't see question description](#description)
+6. [Errors](#error)
 
-[TOC]
 
-## Installation Guide
+## Installation Guide <a name="installation"></a>
 
 * [PDF](Installation%20Guide.pdf)
 * Videos
@@ -10,7 +19,7 @@
   * Linux: https://www.youtube.com/playlist?list=PLgnOcaYXEY3mk8fQp5j3kR8zi7OMpMpJj
   * MacOS: https://www.youtube.com/playlist?list=PLgnOcaYXEY3lbg7Wjs4dB8db8V9vmg1JQ
 
-## Teaching.Codes Quiz Guide 
+## Teaching.Codes Quiz Guide <a name="tc-quiz"></a>
 
 **Quiz Guide Playlist: https://www.youtube.com/playlist?list=PLgnOcaYXEY3lEkkwZPPFV0FcXtVLhnKdB**
 
@@ -46,7 +55,7 @@ You can find all videos inside this playlist (https://www.youtube.com/playlist?l
    2. Select your class (double-click your class under ***Navigator***). 
    3. Check out your grade under ***ExamResults***. 
 
-## Teaching.Codes Plugin Update
+## Teaching.Codes Plugin Update <a name="tc-update"></a>
 
 To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Codes plugin**. Please follow these steps: 
 
@@ -80,14 +89,14 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
 
 ![Teaching.Codes New Version](figures/Teaching.Codes%20New%20Version.png)
 
-## Quiz Reminders 
+## Quiz Reminders <a name="quiz-reminder"></a>
 
 1. During the Quiz, **do not delete the comments provided in Main.py**. **Write your code between them.**
 2. Please, **do not print things like "The result is: ", "Enter an integer:", "Area is: " etc.** You should only print the output listed in the examples. If the output that is expected for the input 2 is 1.0, just print that number. Otherwise, **your extra prints will cause you to get a grade of zero** from that question.
 
-## Quiz Problems
+## Quiz Problems <a name="quiz-problem"></a>
 
-* If you can't see the button names of your questions
+* If you can't see the button names of your questions <a name="button"></a>
 
   * Change the theme by following these steps:
 
@@ -98,18 +107,18 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
 
     ![](figures/ChangeTheme.png)
 
-* If you have deleted the contents of **Main.py**
+* If you have deleted the contents of **Main.py** <a name="mainpy"></a>
 
   * Just restore it from **Main.py.txt** under corresponding question's **src** folder
 
-    ![1606070703958](C:\Cmpe150-Fall20\CmpE150-Python\figures\Maintxt.png)
+    ![](figures/Maintxt.png)
 
-* If there are multiple questions
+* If there are multiple questions <a name="multiple-question"></a>
 
   * Submit separately
   * Make sure you write the correct Main.py
 
-* If you can't see the Question description
+* If you can't see the Question description <a name="description"></a>
 
   * Open the **Question.html** under **WebContent** in a browser
 
@@ -128,7 +137,7 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
 
     * From the folder, open the html file.
 
-## Errors
+## Errors <a name="error"></a>
 
 ![](figures/connection.PNG)
 
