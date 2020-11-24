@@ -175,7 +175,7 @@ Write a program that reads an integer N and prints the prime factorization of N 
 
 
 
-### Question 9 - Pascal's Triangle
+## Question 9 - Pascal's Triangle
 
 The entry in the nth row and kth column of Pascal's triangle is denoted C(n,k). For example, the entry in the topmost row is C(0,0)=1.
 Write a program which takes positive integer n and prints the first n line of Pascal's Triangle. You can use math module to compute factorial. (import math and use math.factorial)
