@@ -1,13 +1,14 @@
 # Table of Contents
 1. [Installation Guide](#installation)
 2. [Teaching.Codes Quiz Guide](#tc-quiz)
-3. [Teaching.Codes Plugin Update](#tc-update)
+3. [Latest Teaching.Codes Plugin Update (202011261600JB)](#tc-update)
 4. [Quiz Reminders](#quiz-reminder)
 5. [Quiz Problems](#quiz-problem)
    * [Can't see the button names](#button)
    * [Deleted the contents of Main.py](#mainpy)
    * [Multiple questions](#multiple-question)
    * [Can't see question description](#description)
+   * [Can't see the Exam Results](#examresults)
 6. [Errors](#error)
 
 
@@ -55,13 +56,13 @@ You can find all videos inside this playlist (https://www.youtube.com/playlist?l
    2. Select your class (double-click your class under ***Navigator***). 
    3. Check out your grade under ***ExamResults***. 
 
-## Teaching.Codes Plugin Update <a name="tc-update"></a>
+## Latest Teaching.Codes Plugin Update (202011261600JB) <a name="tc-update"></a>
 
 To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Codes plugin**. Please follow these steps: 
 
 1. Download:
 
-   https://programming.cmpe.boun.edu.tr/downloads/StudentPlugin/TCPluginJetBrains_202011121145JB.zip 
+   https://programming.cmpe.boun.edu.tr/downloads/StudentPlugin/TCPluginJetBrains_202011261600JB.zip
 
    If you're using MacOS, please download the .zip file using **Chrome instead of Safari** to avoid any issues.
 
@@ -79,13 +80,13 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
 
 6. **Apply steps 2 and 3**. Go into ***Plugins***, click ***the gear icon*** on the top, and select ***Install Plugin from Disk…*** 
 
-   Navigate to the location of the zip file you've downloaded from the link above (TCPluginJetBrains_XXXX.zip) and choose it.
+   Navigate to the location of the zip file you've downloaded from the link above (TCPluginJetBrains_202011261600JB.zip) and choose it.
 
 7. After installation is complete, press the ***Restart IDE*** button appeared on the Teaching Codes plugin, or click ***OK***, and then **restart PyCharm** manually. 
 
    When you restart PyCharm, the Teaching.Codes plugin may not appear on your window. Click ***View-->Tool Windows-->Teaching.Codes***
 
-   When the Teaching.Codes plugin appears in your PyCharm, check your plugin version and make sure that its version matches with the extension of downloaded file (Version: 11.0.0.XXXX)
+   When the Teaching.Codes plugin appears in your PyCharm, check your plugin version and make sure that its version matches with the extension of downloaded file (Version: 11.0.0.202011261600JB)
 
   ![Teaching.Codes New Version](figures/Teaching.Codes%20New%20Version.png)
 
@@ -136,8 +137,27 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
       <img src="figures/HTML_Explorer.png" style="zoom: 50%;" />
 
     * From the folder, open the html file.
+    
+* If you can't see the Exam Results <a name="examresults"></a>
+
+   * Log out, and log in to the Teaching.Codes plugin.
+   * Select the class from the Navigator. Wait a while for the class to load. 
+   * Click the ExamResults tab. When you click Open under a question, if nothing is happening: 
+       * Click the Projects tab on the left of ExamResults
+       * Then, go into ExamResults once again. Now, when you click Open, you should be able to see your results. 
+
 
 ## Errors <a name="error"></a>
+
+* The errors below are usually encountered when consecutive Submit's have been made, or there is a connection issue. 
+* If you encounter them, try to Submit once more. 
+* If this doesn't work, save your code somewhere else, and try to Logout/Login. 
+* If you can't resolve these issues during the Quiz time, please send an e-mail to cmpe150.mail@gmail.com with your solution, and the screenshot of the error __before the Quiz ends.__ If the screenshot also contains the clock on your Desktop showing that the screenshot was taken within the Quiz time,  we will also accept your solution even though your e-mail reached us a few minutes after the Quiz end time. 
+* We will manually grade your solutions only if: 
+    * You have sent a screenshot of your issue/error
+    * You have sent an e-mail of your solutions before the Quiz ends, 
+    OR
+    * You have sent an e-mail of your solution with a screenshot that contains the clock, showing you've taken the screenshot before the Quiz ends
 
 ![](figures/connection.PNG)
 
