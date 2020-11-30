@@ -88,7 +88,7 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
 
    When the Teaching.Codes plugin appears in your PyCharm, check your plugin version and make sure that its version matches with the extension of downloaded file (Version: 11.0.0.202011261600JB)
 
-  ![Teaching.Codes New Version](figures/Teaching.Codes%20New%20Version.png)
+  ![Teaching.Codes New Version](figures/Teaching.Codes%20Version%20600JB.png)
 
 ## Quiz Reminders <a name="quiz-reminder"></a>
 
