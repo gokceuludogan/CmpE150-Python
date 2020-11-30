@@ -203,3 +203,61 @@ Output:
 1 7 21 35 35 21 7 1 
 ```
 
+
+## Question 10 - Half-Matrix
+
+### Question 10a
+
+Write a program which takes an integer N as input and prints the half matrix of N * N with its indices.
+Indices increasing in the horizontal direction
+
+```
+
+Input:
+3
+
+Output:
+0 
+1 2 
+3 4 5 
+
+Input:
+5
+
+Output:
+
+0
+1 2 
+3 4 5 
+6 7 8 9 
+10 11 12 13 14 
+
+```
+
+### Question 10b
+
+Write a program which takes an integer N as input and prints the half matrix of N * N with its indices.
+Indices increasing in the vertical direction
+
+```
+
+Input:
+3
+
+Output:
+0 
+1 3 
+2 4 5 
+
+Input:
+5
+
+Output:
+
+0
+1 5 
+2 6 9 
+3 7 10 12 
+4 8 11 13 14 
+
+```
