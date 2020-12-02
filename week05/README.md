@@ -1,6 +1,6 @@
 ## Question 1 - Leap year
 
-A leap year in the Gregorian calendar system is a year that’s divisible by 4 but not by 100, unless it is also divisible by 400. Write a function that takes in a year as input and returns whether it’s a leap year (or not). For example, 1896, 1904, and 2000 were leap years but 1900 was not. Then, call this function with following inputs and print corresponding outputs depending on the function's result. 
+A leap year in the Gregorian calendar system is a year that’s divisible by 4 but not by 100, unless it is also divisible by 400. Write a function that takes in a year as input and returns True or False indicating whether it’s a leap year (or not). For example, 1896, 1904, and 2000 were leap years but 1900 was not. Then, call this function with following inputs and print corresponding outputs depending on the function's result. 
 
 | Input | Output          |
 | ----- | --------------- |
@@ -42,7 +42,7 @@ Write a function which takes a number and prints the first 6 powers of the numbe
 
 ## Question 4 - Is Prime?
 
-Write a function called `is_prime` which takes a number as a parameter and returns whether this number is prime or not. 
+Write a function called `is_prime` which takes a number as a parameter and returns True or False indicating whether this number is prime or not. 
 
 | Input | Output |
 | ----- | ------ |
