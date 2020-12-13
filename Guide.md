@@ -1,7 +1,7 @@
 # Table of Contents
 1. [Installation Guide](#installation)
 2. [Teaching.Codes Quiz Guide](#tc-quiz)
-3. [Latest Teaching.Codes Plugin Update (202011261600JB)](#tc-update)
+3. [Latest Teaching.Codes Plugin Update (202012121212JB)](#tc-update)
 4. [Quiz Reminders](#quiz-reminder)
 5. [Quiz Problems](#quiz-problem)
    * [Can't see the button names](#button)
@@ -56,13 +56,13 @@ You can find all videos inside this playlist (https://www.youtube.com/playlist?l
    2. Select your class (double-click your class under ***Navigator***). 
    3. Check out your grade under ***ExamResults***. 
 
-## Latest Teaching.Codes Plugin Update (202011261600JB) <a name="tc-update"></a>
+## Latest Teaching.Codes Plugin Update (202012121212JB) <a name="tc-update"></a>
 
 To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Codes plugin**. Please follow these steps: 
 
 1. Download:
 
-   https://programming.cmpe.boun.edu.tr/downloads/StudentPlugin/TCPluginJetBrains_202011261600JB.zip
+   https://programming.cmpe.boun.edu.tr/downloads/StudentPlugin/TCPluginJetBrains_202012121212JB.zip
 
    If you're using MacOS, please download the .zip file using **Chrome instead of Safari** to avoid any issues.
 
@@ -80,15 +80,15 @@ To update Teaching.Codes, **you need to uninstall and reinstall the Teaching.Cod
 
 6. **Apply steps 2 and 3**. Go into ***Plugins***, click ***the gear icon*** on the top, and select ***Install Plugin from Disk…*** 
 
-   Navigate to the location of the zip file you've downloaded from the link above (TCPluginJetBrains_202011261600JB.zip) and choose it.
+   Navigate to the location of the zip file you've downloaded from the link above (TCPluginJetBrains_202012121212JB.zip) and choose it.
 
 7. After installation is complete, press the ***Restart IDE*** button appeared on the Teaching Codes plugin, or click ***OK***, and then **restart PyCharm** manually. 
 
    When you restart PyCharm, the Teaching.Codes plugin may not appear on your window. Click ***View-->Tool Windows-->Teaching.Codes***
 
-   When the Teaching.Codes plugin appears in your PyCharm, check your plugin version and make sure that its version matches with the extension of downloaded file (Version: 11.0.0.202011261600JB)
+   When the Teaching.Codes plugin appears in your PyCharm, check your plugin version and make sure that its version matches with the extension of downloaded file (Version: 12.0.0.202012121212JB)
 
-  ![Teaching.Codes New Version](figures/Teaching.Codes%20Version%20600JB.png)
+  ![Teaching.Codes New Version](figures/Teaching.Codes%20Version%201212JB.png)
 
 ## Quiz Reminders <a name="quiz-reminder"></a>
 
