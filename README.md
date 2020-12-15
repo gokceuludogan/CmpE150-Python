@@ -38,3 +38,7 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 ### [Week 6](week06/)
 
 - Lists and Tuples
+
+### [Week 7](week07/)
+
+- Lists and Tuples
