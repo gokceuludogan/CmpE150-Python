@@ -138,7 +138,7 @@ Write a function that adds two fractions that are passed as tuples.
 
 #### Question 10b - Multiplication
 
-Write a function that adds two fractions that are passed as tuples.
+Write a function that multiplies two fractions that are passed as tuples.
 
 | Input         | Output  |
 | ------------- | ------- |
