@@ -29,7 +29,7 @@ Write a function which takes a list of integers and returns the sum of the even 
 
 #### Question 3b - Odd Sum
 
-Write a function which takes a list of integers and returns the sum of the even integers in this list using list comprehension. 
+Write a function which takes a list of integers and returns the sum of the odd integers in this list using list comprehension. 
 
 | Input           | Output |
 | --------------- | ------ |
