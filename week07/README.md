@@ -90,7 +90,7 @@ Write a function which takes a list of numbers and an integer *k* and a boolean 
 | Input                  | Output          |
 | ---------------------- | --------------- |
 | [1, 2, 3, 4, 5] 2 True | [3, 4, 5, 1, 2] |
-| [2, 18, 6, 0] 3 False  | [18, 6 0 2]     |
+| [2, 18, 6, 0] 3 False  | [18, 6, 0, 2]     |
 
 ## Question 9 - Points
 
