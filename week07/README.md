@@ -114,7 +114,7 @@ Write a function which takes two tuples (points) and returns the point closest t
 | (3, 0) (0, 4)  | (3, 0) |
 | (11, 7) (6, 8) | (6, 8) |
 
-#### Question 9c - Closest
+#### Question 9c - Farthest
 
 Write a program which takes an integer N and reads N points (given by their x and y coordinates) and determines the pair that is the farthest apart.
 
