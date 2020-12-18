@@ -4,8 +4,8 @@ Write a function that checks if all items in the following tuple are the same
 
 | INPUT            | OUTPUT |
 | ---------------- | ------ |
-| 4<br>45 45 45 45 | True   |
-| 3<br>12 34 12    | False  |
+| 45 45 45 45 | True   |
+| 12 34 12    | False  |
 
 ## Question 2 - Filter Even Numbers
 
