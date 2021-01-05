@@ -54,9 +54,9 @@ Write a program to add **'ing'** at the end of a given string (length should be 
 
 Write a program to trim both leading and trailing white space characters in a string
 
-| Input                   | Output   |
-| ----------------------- | -------- |
-| "    Hi all           " | "Hi all" |
+| Input             | Output   |
+| ----------------- | -------- |
+| "  Hi all       " | "Hi all" |
 
 #### Q6b
 
