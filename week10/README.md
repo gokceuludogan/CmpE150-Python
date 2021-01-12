@@ -1,6 +1,6 @@
 # Dictionaries
 
-### Question 1 - Split the Bill
+## Question 1 - Split the Bill
 
 Write a program that splits the bill.
 
@@ -19,7 +19,7 @@ Write a script that takes list of different types, and creates a dictionary whic
 | [10, 4.20, False, 'Word', 'CMPE150', 30, 3.5, 9.99, 'oblivion', True, 68, 88, "88"] | <class 'int'>  ->  [10, 30, 68, 88]<br><class 'float'>  ->  [4.2, 3.5, 9.99]<br><class 'bool'>  ->  [False, True]<br><class 'str'>  ->  ['Word', 'CMPE150', 'oblivion', '88']|
 
 
-### Question 3 - Sorting Dictionary
+## Question 3 - Sorting Dictionary
 
 Write a function that returns a sorted list of (key, value) tuples. The list must be sorted by the value and be sorted largest to smallest.
 
