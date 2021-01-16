@@ -159,7 +159,7 @@ print(capitalize("a WITTY saying proves nOthing"))
 def name(s):
     # split the string into a list
     l = s.split()
-   	return ' '.join([l[0].upper() for w in l])
+    return ' '.join([w[0].upper() for w in l])
 
 s = "mohandas karamchand gandhi"
 print(name(s))
