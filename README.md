@@ -1,4 +1,4 @@
-# CmpE150 - Fall 2020
+# CmpE150 - Spring 2021
 
 Bogazici University CmpE 150 Introduction to Computing (Python programming language) Notes
 
@@ -8,49 +8,9 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 - [gokce.uludogan@boun.edu.tr](mailto:gokce.uludogan@boun.edu.tr)
 - [zeynep.yirmibesoglu@boun.edu.tr](mailto:zeynep.yirmibesoglu@boun.edu.tr)
 
-**Additional Materials**
+## Materials
 
-- http://www.pythontutor.com/visualize.html
+* [Installation Guide]()
+* [Teaching Codes Guide]()
+* [Frequently Asked Questions (FAQ)]()
 
-
-### [Week 1](week01/)
-
-- Variables
-- Expressions
-- Statements
-
-### [Week 2](week02/)
-
-- Conditional Execution
-
-### [Week 3](week03/)
-
-- Loops and Iterations
-
-### [Week 4](week04/)
-
-- Nested Loops
-
-### [Week 5](week05/)
-
-- Functions
-
-### [Week 6](week06/)
-
-- Lists and Tuples
-
-### [Week 7](week07/)
-
-- Lists and Tuples
-
-### [Week 8](week08/)
-
-- Strings
-
-### [Week 9](week09/)
-
-- Strings and Files
-
-### [Week 10](week10/)
-
-- Dictionaries and Sets
