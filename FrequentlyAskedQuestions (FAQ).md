@@ -2,13 +2,13 @@
 
 * How can I install the software required for this course?
   
-  * Follow the [Installation Guide]().
+  * Follow the [Installation Guide](InstallationGuide.md).
 * How can I update Teaching Codes Plugin?
   
-  * Follow the [Teaching Codes Update Guide]()
+  * Follow the [Teaching Codes Update Guide](TeachingCodesGuide.md)
 * How can I open/submit a project?
   
-  * Follow the [Teaching Codes Guide]()
+  * Follow the [Teaching Codes Guide](TeachingCodesGuide.md)
 * I encountered an error during installation/using Teaching Codes, how can I get help?
   
 * Check the questions/solutions in this document and then Technical Support Forum on Moodle. If you can't find the solution, send an email to cmpe150.mail@gmail.com.
