@@ -10,7 +10,7 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 
 ## Materials
 
-* [Installation Guide]()
-* [Teaching Codes Guide]()
-* [Frequently Asked Questions (FAQ)]()
+* [Installation Guide](InstallationGuide.md)
+* [Teaching Codes Guide](TeachingCodesGuide.md)
+* [Frequently Asked Questions (FAQ)](FrequentlyAskedQuestions%20(FAQ).md)
 
