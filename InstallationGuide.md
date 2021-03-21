@@ -20,6 +20,10 @@ to Computing course. You will need to install the following:
 - PyCharm
 - Teaching.Codes plugin
 
+You can find PDF version of this document [here](InstallationGuide.pdf).
+
+#### Problems
+
 If you encounter a problem during installation, first check **[FAQ](FrequentlyAskedQuestions.md)** on GitHub and **Technical Support Forum** on Moodle. If you can't find the solution to your problem, describe the problem with the template below and post it to **Technical Support** Forum.
 
 **Operating System:** Specify your operating system: Windows/Linux/MacOS
