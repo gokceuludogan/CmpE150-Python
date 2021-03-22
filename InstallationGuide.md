@@ -193,7 +193,7 @@ Linux operating systems.
 4. Next, type the following line, then press Return(enter).
 
    ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh )"
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
 
    Type your password if it asks you to and press Return(enter). Then press Return(enter) when it asks you
@@ -277,7 +277,7 @@ Linux operating systems.
    Type the following line, then press Return(enter).
 
    ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh )"
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
 
    Type your password if it asks you to and press Return(enter). Then press Return(enter) when it asks you
