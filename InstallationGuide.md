@@ -12,8 +12,7 @@
 
 # Installation Guide for CMPE 150
 
-This document describes the steps for installing the necessary software for the CMPE 150 Introduction
-to Computing course. You will need to install the following:
+This document describes the steps for installing the necessary software for the CMPE 150 Introduction to Computing course. You will need to install the following:
 
 * python3
 
@@ -32,7 +31,7 @@ If you encounter a problem during installation, first check **[FAQ](FrequentlyAs
 
 **Error:** Describe the error. Paste the error or upload a screenshot showing the error.
 
-If the problem still continues, send an email to cmpe150.mail@gmail.com
+If the problem still continues, send an email to the mail address of your section: cmpe150.mail@gmail.com for CMPE150.01 and cmpe150.mail2@gmail.com for CMPE150.02.
 
 ## Video Tutorials  <a name="videos"></a>
 
@@ -44,12 +43,14 @@ The video tutorials follow the steps described in this document with minor chang
 
 ## Instructions  <a name="instructions"></a>
 
-Step by step instructions for installing these software are provided below for the Windows, MacOS, and
-Linux operating systems.
+Step by step instructions for installing these software are provided below for the Windows, MacOS, and Linux operating systems.
 
 ### 1. Install Python
 
 #### Windows <a name="py-win"></a>
+
+If Microsoft Store is supported in your computer:
+
 1. Go to Microsoft Store, type python 3.8 in the search bar. Download python 3.8.
 
 2. To control if python3.8 is installed, press the Windows button, then type:	
@@ -67,6 +68,25 @@ Linux operating systems.
    and press Return (enter).
 
    If you see Python 3.8.x (3.8.6 etc.), python 3.8 has been successfully installed.
+
+If Microsoft Store is not supported in your computer:
+
+1. Go to https://www.python.org/downloads/release/python-386. Navigate to *Files* section. 
+
+2. Download the installer.
+
+   * **Windows x86-64 executable installer** if you're using 64 bit-Windows 
+   * **Windows x86 executable installer** if you're using 32 bit-Windows
+
+   To check whether you're using a 32 bit or 64 bit version of Windows: Select the *Start* button, type Computer in the search box, right-click on *Computer*, and then select *Properties* and check *System Type*. 
+
+3. Run the installer
+
+   * Check *Add Python3.8 to PATH*, click *Install Now* and continue default installation. 
+
+     ![](figures/PythonInstaller.png)
+
+     
 
 #### Linux (Ubuntu/Debian) - <span style="color:blue">If you don’t have any version of Python installed </span><a name="py-linux-new"></a>
 
@@ -153,72 +173,62 @@ Linux operating systems.
    sudo apt-get update
    ```
 
-   and press Return (enter). Type your password if it asks you to and press Return (enter). Then, upgrade
-   your packages with:
-
-   ```bash
+   and press Return (enter). Type your password if it asks you to and press Return (enter). Then, upgrade your packages with:
+   
+```bash
    sudo apt-get upgrade
    ```
-
-   and press Return(enter). Type your password if it asks you to and press Return(enter). If it asks you to
-   confirm the install, type y and press Return(enter).
-
+   
+and press Return(enter). Type your password if it asks you to and press Return(enter). If it asks you to confirm the install, type y and press Return(enter).
+   
 2. If you do not have curl and/or git, you need to install them by typing:
 
    ```bash
    sudo apt install curl
    ```
 
-   Type your password if it asks you to and press Return(enter) to install curl. If it asks you to confirm the
-   install, type y and press Return(enter).
-
-   For git type:
-
-   ```bash
+   Type your password if it asks you to and press Return(enter) to install curl. If it asks you to confirm the install, type y and press Return(enter).
+   
+For git type:
+   
+```bash
    sudo apt install git
    ```
-
-   Type your password if it asks you to and press Return(enter) to install git. If it asks you to confirm the
-   install, type y and press Return(enter).
-
+   
+Type your password if it asks you to and press Return(enter) to install git. If it asks you to confirm the install, type y and press Return(enter).
+   
 3. Install some important packages like the build-essential package:
 
    ```bash
    sudo apt-get install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
    ```
 
-   Type your password if it asks you to and press Return(enter). If it asks you to confirm the install, type y
-   and press Return(enter).
-
+   Type your password if it asks you to and press Return(enter). If it asks you to confirm the install, type y and press Return(enter).
+   
 4. Next, type the following line, then press Return(enter).
 
    ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
 
-   Type your password if it asks you to and press Return(enter). Then press Return(enter) when it asks you
-   to continue the installation. Wait for the installation to finish. Then type the following line, then press
-   Return(enter).
-
+   Type your password if it asks you to and press Return(enter). Then press Return(enter) when it asks you to continue the installation. Wait for the installation to finish. Then type the following line, then press Return(enter).
+   
    ```bash
-   echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'>> ~/.bashrc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'>> ~/.bashrc
    ```
-
+   
    **Be careful if you are copying from the document, the characters may not exactly be the same (like the single quote) and cause errors.**
 
-   This may complete without issue, (in which case move on to the next step) or give you a permission
-   denied error. If you get this error, **go to your home directory,** press **Ctrl + H** to see the hidden files in
-   your system. Open the **.bashrc** file with a text editor and add a new line at the end of the file, and write
-   the following line there:
+   This may complete without issue, (in which case move on to the next step) or give you a permission denied error. If you get this error, **go to your home directory,** press **Ctrl + H** to see the hidden files in your system. Open the **.bashrc** file with a text editor and add a new line at the end of the file, and write the following line there:
 
    ```bash
    eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
    ```
-
-   **DO NOT CHANGE ANYTHING ELSE ON THE FILE.** Save the file and close it.
-
+   
+**DO NOT CHANGE ANYTHING ELSE ON THE FILE.** Save the file and close it.
+   
    Close the terminal. 
-
+   
 5. Open a new terminal and type: 
 
    ```bash 
@@ -269,6 +279,12 @@ Linux operating systems.
    python -V
    ```
 
+   OR 
+   
+   ```bash
+   python3 -V
+   ```
+   
    then press Return(enter). If it says python 3.8, installation is complete.
 
 #### MacOS <a name="py-mac"></a>
@@ -280,9 +296,8 @@ Linux operating systems.
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
 
-   Type your password if it asks you to and press Return(enter). Then press Return(enter) when it asks you
-   to continue the installation.
-
+   Type your password if it asks you to and press Return(enter). Then press Return(enter) when it asks you to continue the installation.
+   
 2. After the installation is complete, check if it is completed successfully by typing
 
    ```bash 
@@ -297,31 +312,29 @@ Linux operating systems.
    brew update
    ```
 
-   then press Return(enter).
-   After the update finishes, type:
-
-   ```bash
+   then press Return(enter). After the update finishes, type:
+   
+```bash
    brew install pyenv
    ```
-
-   then press Return(enter).
-   After the installation finishes, type:
-
+   
+then press Return(enter). After the installation finishes, type:
+   
    ```bash
-   echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
    ```
-
+   
    then press Return(enter).
 
    **Be careful if you are copying from the document, the characters may not be exactly the same (like the single quote) and this may cause errors that you can not notice. We suggest you type the single quotation marks yourselves by using the keyboard.**
 
    This may complete without issue, (in which case move on to the next step) or give you a permission
-   denied error. If you get this error, **go to your home directory,** press **Command+Shift+Dot** to see hidden files (You can press them again to hide later.) Open the **.bash_profile** file with a text editor and try to add a new empty line at the end of the file. It may not allow you to, if so, change the permissions of the file to read&write and write to a new line at the bottom of the file the following:
-
+denied error. If you get this error, **go to your home directory,** press **Command+Shift+Dot** to see hidden files (You can press them again to hide later.) Open the **.bash_profile** file with a text editor and try to add a new empty line at the end of the file. It may not allow you to, if so, change the permissions of the file to read&write and write to a new line at the bottom of the file the following:
+   
    ```bash
-   eval "$(pyenv init -)"
+eval "$(pyenv init -)"
    ```
-
+   
    **DO NOT CHANGE ANYTHING ELSE ON THE FILE.** Save the file and close it. Close the terminal.
 
 3. Open a new terminal and type:
@@ -337,13 +350,18 @@ Linux operating systems.
    pyenv global 3.8.6
    ```
 
-   then press Return(enter). This will set python 3.8.6 as the default python in your computer. Check this
-   by typing:
-
-   ```bash
+   then press Return(enter). This will set python 3.8.6 as the default python in your computer. Check this by typing:
+   
+```bash
    python -V
    ```
-
+   
+OR 
+   
+   ```bash
+   python3 -V
+   ```
+   
    then press Return(enter). If it says python 3.8.6, installation is complete.
 
 ### 2. Install PyCharm <a name="pycharm"></a>
@@ -363,7 +381,7 @@ After the installation, run PyCharm.
 **Make sure your PyCharm version is 2020.3.X or above. If you have a previous version, you must update it or install new version.**
 
 #### Linux (Ubuntu/Debian)
-Go to Ubuntu Software, type PyCharm Pro. Install PyCharm Pro.
+Go to Ubuntu Software, type *PyCharm Pro*. Install PyCharm Pro.
 
 The installation will begin, accept the license agreement and choose your settings like the dark theme, create a launcher script if you wish (you don’t need to), and you will not need any plugins it shows you.
 
@@ -375,16 +393,11 @@ Welcome to PyCharm window should appear.
 
 ### 3. Create a new project <a name="project"></a>
 
-Click on the “New Project” button. From the window that comes up, choose Pure Python from the left
-side.
+Click on the *New Project* button. From the window that comes up, choose *Pure Python* from the left side.
 
-In the options on the right side, you can write a project name of your choosing at the end of the Location
-setting -the one at the top of the window- by deleting the “pythonProject” and writing something like
-“myFirstProject” or “hello”.
+In the options on the right side, you can write a project name of your choosing at the end of the *Location setting* -the one at the top of the window- by deleting the *pythonProject* and writing something like *myFirstProject* or *hello*.
 
-Then, under Python Interpreter, make sure the New environment using Virtualenv is checked, and make
-sure the Base interpreter is pointing to the location of the python you just downloaded. Windows will
-usually find this by itself. In Linux and Mac, this may point to the default python which comes pre-installed in your computer; so click the three dots and navigate to your home directory, and find among the hidden files the folder .pyenv and among the files in that directory choose python3.8.
+Then, under *Python Interpreter*, make sure the *New environment using Virtualenv* is checked, and make sure the *Base interpreter* is pointing to **the location of the python you just downloaded**. Windows will usually find this by itself. In Linux and Mac, this may point to the default python which comes pre-installed in your computer; so click the three dots and navigate to your home directory, and find among the hidden files the folder .pyenv and among the files in that directory choose *python3.8.*
 
 The location should be something similar to what is below:
 
@@ -406,16 +419,15 @@ OR
 which python3
 ```
 
-This will tell you the location of your Python 3.8.6 directory. Your Base Interpreter should point to this
-location.
+This will tell you the location of your Python 3.8.6 directory. Your Base Interpreter should point to this location.
 
-Check the Create a main.py welcome script for this time and click Create. It will take a little while and your project will be created. If you see no errors, everything is in order.
+Check the *Create a main.py welcome script* for this time and click *Create*. It will take a little while and your project will be created. If you see no errors, everything is in order.
 
 ![1616342184949](figures/1616342184949.png)
 
-At the top right of your screen, you will see the section in the image above. Click the Run button (big green triangle) and at the bottom of the screen a Run window will appear, and it will have the writing:
+At the top right of your screen, you will see the section in the image above. Click the *Run button* (big green triangle) and at the bottom of the screen a Run window will appear, and it will have the writing:
 
-Hi, PyCharm
+**Hi, PyCharm**
 
 ### 4. Install the Teaching Codes Plugin <a name="TC"></a>
 
