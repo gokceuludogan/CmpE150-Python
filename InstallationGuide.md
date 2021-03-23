@@ -175,11 +175,11 @@ If Microsoft Store is not supported in your computer:
 
    and press Return (enter). Type your password if it asks you to and press Return (enter). Then, upgrade your packages with:
    
-  ```bash
+   ```bash
    sudo apt-get upgrade
    ```
    
-  and press Return(enter). Type your password if it asks you to and press Return(enter). If it asks you to confirm the install, type y and press Return(enter).
+   and press Return(enter). Type your password if it asks you to and press Return(enter). If it asks you to confirm the install, type y and press Return(enter).
    
 2. If you do not have curl and/or git, you need to install them by typing:
 
@@ -226,7 +226,7 @@ If Microsoft Store is not supported in your computer:
    eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
    ```
    
-**DO NOT CHANGE ANYTHING ELSE ON THE FILE.** Save the file and close it.
+   **DO NOT CHANGE ANYTHING ELSE ON THE FILE.** Save the file and close it.
    
    Close the terminal. 
    
