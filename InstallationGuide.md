@@ -175,11 +175,11 @@ If Microsoft Store is not supported in your computer:
 
    and press Return (enter). Type your password if it asks you to and press Return (enter). Then, upgrade your packages with:
    
-```bash
+  ```bash
    sudo apt-get upgrade
    ```
    
-and press Return(enter). Type your password if it asks you to and press Return(enter). If it asks you to confirm the install, type y and press Return(enter).
+  and press Return(enter). Type your password if it asks you to and press Return(enter). If it asks you to confirm the install, type y and press Return(enter).
    
 2. If you do not have curl and/or git, you need to install them by typing:
 
@@ -189,13 +189,13 @@ and press Return(enter). Type your password if it asks you to and press Return(e
 
    Type your password if it asks you to and press Return(enter) to install curl. If it asks you to confirm the install, type y and press Return(enter).
    
-For git type:
+   For git type:
    
-```bash
+   ```bash
    sudo apt install git
    ```
    
-Type your password if it asks you to and press Return(enter) to install git. If it asks you to confirm the install, type y and press Return(enter).
+   Type your password if it asks you to and press Return(enter) to install git. If it asks you to confirm the install, type y and press Return(enter).
    
 3. Install some important packages like the build-essential package:
 
@@ -207,21 +207,22 @@ Type your password if it asks you to and press Return(enter) to install git. If 
    
 4. Next, type the following line, then press Return(enter).
 
-   ```bash
+   ```bash 
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
 
    Type your password if it asks you to and press Return(enter). Then press Return(enter) when it asks you to continue the installation. Wait for the installation to finish. Then type the following line, then press Return(enter).
    
    ```bash
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'>> ~/.bashrc
+   echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'>> ~/.bashrc
    ```
    
    **Be careful if you are copying from the document, the characters may not exactly be the same (like the single quote) and cause errors.**
 
    This may complete without issue, (in which case move on to the next step) or give you a permission denied error. If you get this error, **go to your home directory,** press **Ctrl + H** to see the hidden files in your system. Open the **.bashrc** file with a text editor and add a new line at the end of the file, and write the following line there:
 
-   ```bash
+
+   ```bash 
    eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
    ```
    
@@ -314,14 +315,14 @@ echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'>> ~/.bashrc
 
    then press Return(enter). After the update finishes, type:
    
-```bash
+   ```bash
    brew install pyenv
    ```
    
-then press Return(enter). After the installation finishes, type:
+   then press Return(enter). After the installation finishes, type:
    
    ```bash
-echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+   echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
    ```
    
    then press Return(enter).
@@ -332,7 +333,7 @@ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 denied error. If you get this error, **go to your home directory,** press **Command+Shift+Dot** to see hidden files (You can press them again to hide later.) Open the **.bash_profile** file with a text editor and try to add a new empty line at the end of the file. It may not allow you to, if so, change the permissions of the file to read&write and write to a new line at the bottom of the file the following:
    
    ```bash
-eval "$(pyenv init -)"
+   eval "$(pyenv init -)"
    ```
    
    **DO NOT CHANGE ANYTHING ELSE ON THE FILE.** Save the file and close it. Close the terminal.
@@ -352,11 +353,11 @@ eval "$(pyenv init -)"
 
    then press Return(enter). This will set python 3.8.6 as the default python in your computer. Check this by typing:
    
-```bash
+   ```bash
    python -V
    ```
    
-OR 
+   OR 
    
    ```bash
    python3 -V
