@@ -14,15 +14,16 @@
 
   - The username and password will be sent to **the e-mail in BUIS** **after add drop period**. We will make an announcement when the credentials are sent.  
 
-  - If your email address that you use in BUIS (registration.boun.edu.tr) is one of 
-
-    - **@hotmail**
-    - **@outlook**
-
-    Please change it to one of the following 
+  - If your email address that you use in BUIS (registration.boun.edu.tr) is anything other than
 
     - **<span style="color:green">@gmail</span>**
     - **<span style="color:green">@boun.edu.tr</span>**
+
+    Please change it to @gmail.com, or @boun.edu.tr. In order to do that, 
+    
+    - Go to https://registration.boun.edu.tr, and Login. 
+    - Enter General Settings, and then E-Mail Management. 
+    - You should change your current Contact E-mail Address to @boun.edu.tr or @gmail.com.  
 
 - Please check announcements on Moodle **regularly**!
 
