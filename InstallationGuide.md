@@ -19,20 +19,7 @@ This document describes the steps for installing the necessary software for the 
 - PyCharm
 - Teaching.Codes plugin
 
-You can find PDF version of this document [here](InstallationGuide.pdf). If you are copying from the PDF, please beware that 
-
-- the characters may not exactly be the same and cause errors. 
-
-- the commands which do not fit into one line may cause errors and must be converted into one line before execution.
-
-  For example, the following command lasts two lines:
-
-  - /bin/bash -c "$(curl -fsSL
-    https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-
-  It must be converted into one line as follows and then executed:
-
-  - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+You can find PDF version of this document [here](InstallationGuide.pdf). 
 
 #### Problems
 
