@@ -33,6 +33,10 @@
 
 - The installation must be completed **until April 9, 2021**. After that date, questions regarding installation **WILL NOT BE ANSWERED.**
 
+- What counts as **cheating**:
+	- **Information exchange between students:** Giving and Receiving information to/from your colleagues both count as cheating.
+	- **Using codes from any source other than the materials of our course:** You can consult internet or books to learn and improve your programming skills. But you shouldn't use any material that is not your own work in the projects and exams.
+
 - Check **FAQ** and **Technical Support** to get help. 
 
   ![1616502949955](figures/moodle.png)
