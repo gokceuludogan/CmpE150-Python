@@ -6,7 +6,7 @@
 
 ### Assistants: 
 
-![1616505237530](../figures/Team.png)
+![1616505237530](../figures/team-fixed.png)
 
 ## Announcements
 

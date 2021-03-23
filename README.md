@@ -2,7 +2,7 @@
 
 Bogazici University CmpE 150 Introduction to Computing (Python programming language) Notes
 
-![](figures/team.png)
+![](figures/team-fixed.png)
 
 ## Materials
 
