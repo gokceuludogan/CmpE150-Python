@@ -71,7 +71,7 @@ If Microsoft Store is supported in your computer:
 
 If Microsoft Store is not supported in your computer:
 
-1. Go to https://www.python.org/downloads/release/python-386. Navigate to *Files* section. 
+1. Go to https://www.python.org/downloads/release/python-386/. Navigate to *Files* section. 
 
 2. Download the installer.
 
