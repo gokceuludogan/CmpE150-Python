@@ -16,3 +16,7 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 * Introduction to tools 
 * Installation 
 
+#### [Week2](week02/)
+* Variables
+* Expressions
+* Statements
