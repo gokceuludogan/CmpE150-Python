@@ -34,8 +34,33 @@
    * ```bash
      ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
      ```
+6. I get 'brew not found' error 
+   
+   * If you are using **zsh**, you need to add HomeBrew to your path in zsh profile:
+   
+     * Copy and the following line on the terminal, replace \<username\> with your username and then press return (enter).
+     
+       ```bash 
+       echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/<username>/.zprofile
+       ```
+     * Then copy and paste the next line on the terminal, press return (enter)
 
-6. I can't see the button names in the plugin <a name="button"></a>
+       ```bash 
+       eval $(/opt/homebrew/bin/brew shellenv)
+       ```
+     * Check whether it is succesfully added to the profile, by typing:
+     
+       ```bash
+       brew help
+       ```
+7. Teaching.Codes Plugin displays 'Nothing to show'
+   
+   * Make sure you do not extract the Teaching.Codes zip file. 
+   * Download the Teaching.Codes zip using Chrome instead of Safari.  
+   * If you are using Macbook M1, make sure you install **Intel version of PyCharm.** 
+   * Then, reinstall the plugin by following [Teaching.Codes guide](https://github.com/gokceuludogan/CmpE150-Python/blob/main/TeachingCodesGuide.md)  
+   *    
+8. I can't see the button names in the plugin <a name="button"></a>
 
    * Change the theme by following these steps:
 
@@ -46,19 +71,19 @@
 
      ![](figures/ChangeTheme.png)
 
-7. I have deleted the contents of **Main.py** <a name="mainpy"></a>
+9. I have deleted the contents of **Main.py** <a name="mainpy"></a>
    * Restore it from **Main.py.txt** under corresponding question's **src** folder
 
-![](figures/Maintxt.png)
+     ![](figures/Maintxt.png)
 
-8. I can't see the Question description <a name="description"></a>
+10. I can't see the Question description <a name="description"></a>
    * Open the **Question.html** under **WebContent** in a browser
    * Right click on **Question.html** file
    * Click **Open in Browser.** 
 
-<img src="figures/HTML_Browser.png"  style="zoom:50%;" />
+    <img src="figures/HTML_Browser.png"  style="zoom:50%;" />
 
-9. If there are multiple questions and you see the same description for both questions or still blank page. 
+11. If there are multiple questions and you see the same description for both questions or still blank page. 
 
    * Right click on **Question.html** file
    * Choose "**Show in Explorer/Finder**". This step open the folder that contains the html file.
@@ -67,7 +92,7 @@
 
    * From the folder, open the html file.
 
-10. I can't see the Exam Results <a name="examresults"></a>
+12. I can't see the Exam Results <a name="examresults"></a>
 
     * Log out, and log in to the Teaching.Codes plugin.	
     * Select the class from the Navigator. Wait a while for the class to load. 
@@ -75,6 +100,6 @@
       * Click the Projects tab on the left of ExamResults
       * Then, go into ExamResults once again. Now, when you click Open, you should be able to see your results. 
 
-11. What counts as **cheating**:
+13. What counts as **cheating**:
     * **Information exchange between students:** Giving and Receiving information to/from your colleagues both count as cheating.
     * **Using codes from any source other than the materials of our course:** You can consult internet or books to learn and improve your programming skills. But you shouldn't use any material that is not your own work in the projects and exams.
