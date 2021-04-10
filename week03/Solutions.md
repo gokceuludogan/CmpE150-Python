@@ -148,7 +148,7 @@ fraction_b = b - floor_b
 fraction_c = c - floor_c
 
 # print(str(fraction_a), str(fraction_b), str(fraction_c))
-print("%.2f %.2f %.2f" % (fraction_a, fraction_b, fraction_c)))
+print("%.2f %.2f %.2f" % (fraction_a, fraction_b, fraction_c))
 
 ```
 
