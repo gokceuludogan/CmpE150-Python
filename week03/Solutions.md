@@ -88,6 +88,30 @@ c = int(input("Please enter the third number: "))
 print(a * (a % 2) + b * (b % 2) + c * (c % 2))
 ```
 
+**Alternative solution (using if)**
+
+```python
+a = int(input("Please enter the first number: "))
+b = int(input("Please enter the second number: "))
+c = int(input("Please enter the third number: "))
+
+sum = 0
+
+if a % 2 == 1:
+    sum = sum + a
+    # Equivalent expression:   sum += a
+
+if b % 2 == 1:
+    sum = sum + b
+    # Equivalent expression:   sum += b
+
+if c % 2 == 1:
+    sum = sum + c
+    # Equivalent expression:   sum += c
+
+print(sum)
+```
+
 <br>
 
 ## Q7
