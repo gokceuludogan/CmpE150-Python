@@ -1,6 +1,6 @@
 ## Question 1
 
-Write a program which takes two integer and determines whether the first number is divisible by the second number. If it's not divisible, then the program prints the remainder of the division. 
+Write a program which takes two integers and determines whether the first number is divisible by the second number. If it's not divisible, then the program prints the remainder of the division. 
 
 | Input  | Output          |
 | ------ | --------------- |
@@ -34,7 +34,7 @@ Write a program that calculates the body mass index with the given formula and p
 
 | Input  | Output                            |
 | ------ | --------------------------------- |
-| 83 174 | 28.7<br />Overweight              |
+| 83 174 | 27.4<br />Overweight              |
 | 73 174 | 24.1<br />Normal (healthy weight) |
 
 ## Question 4
