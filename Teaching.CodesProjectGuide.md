@@ -1,4 +1,5 @@
 ## Teaching.Codes Project Guide
+You can find the PDF version of this file [here](Teaching.CodesProjectGuide.pdf)
 
 * Open Teaching.Codes plugin. Enter your user name/password and click **Login.**
 
