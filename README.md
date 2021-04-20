@@ -20,3 +20,15 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 * Variables
 * Expressions
 * Statements
+
+#### [Week3](week03/)
+* Variables
+* Expressions
+* Statements
+
+#### [Week4](week04/)
+* Conditional Execution (if, elif, else)
+
+#### [Week5](week05/)
+* Loops
+
