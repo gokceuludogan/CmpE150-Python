@@ -114,7 +114,7 @@ Write a program that reads numbers until the entered number is greater than the 
 |:-------:|:-------:|
 | 5 4 3 3 8 | 3.75 |
 | 1 2 | 1.0 |
-| 100 54 46 2 3 | 53.0 |
+| 100 54 46 2 3 | 50.5 |
 
 
 ## Question 12 - FizzBuzz
