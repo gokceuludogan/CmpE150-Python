@@ -66,7 +66,7 @@ F_0 = 0, F_1 = 1, F_n = F\_(n-2) + F\_(n-1)
 
 ## Question 7 - Second Largest
 
-Write a program that will take nonnegative integers as inputs until the user enters 0. Then prints the difference between of largest two numbers among given inputs.
+Write a program that will take nonnegative integers as inputs until the user enters 0. Then prints the difference between the largest two numbers among given inputs.
 
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
