@@ -105,7 +105,7 @@ Write a floor function. If the input is anything other than integer or float, pr
 | - | - |
 | 123 | 123 |
 | 123.7 | 123 |
-| Hi! | None |
+| Hi! | Invalid input: Hi! |
 
 <em>Hint: You can use type(var) function to get the type of var</em>
 
@@ -122,6 +122,7 @@ Write a function  **distance** which takes the coordinates of two points (x1, y1
 | 3, 0, 0, 4   | 5.0    |
 | 5, 8, 10, 20 | 13.0   |
 
+
 #### Question 8b - Closest
 
 Write a function which takes the coordinates of two points (x1, y1, x2, y2)  and returns the point closest to the origin. *Use the distance
@@ -131,3 +132,47 @@ function.*
 | -------------- | ------ |
 | 3, 0, 0, 4  | 3, 0 |
 | 11, 7, 6, 8 | 6, 8 |
+
+#### Question 8c - Valid Triangle
+
+Write a function that takes three vertices of a triangle (x1, y1, x2, y2, x3, y3), and returns True if it is a valid triangle, False otherwise. If the distance between any two points is zero, raise ZeroDivisionError.
+
+| Input          | Output |
+| -------------- | ------ |
+| 3, 0, 0, 4, 1, 1  | True |
+| 11, 7, 6, 8, 11, 7| ZeroDivisionError |
+| 0, 0, 0, 1, 0, 2 | False |
+
+#### Question 8d - Perimeter
+
+Write a function that takes three vertices of a triangle (x1, y1, x2, y2, x3, y3), and returns the perimeter (sum of edges). If the distance between any two points is zero, raise ZeroDivisionError. If the triangle is invalid, raise ValueError. 
+
+| Input          | Output |
+| -------------- | ------ |
+| 3, 0, 0, 4, 1, 1  | 10.39834563766817 |
+| 11, 7, 6, 8, 11, 7| ZeroDivisionError |
+| 0, 0, 0, 1, 0, 2 | ValueError |
+
+#### Question 8d - Area
+
+Write a function that takes three vertices of a triangle (x1, y1, x2, y2, x3, y3), and returns the area. If the distance between any two points is zero, return -1. If the triangle is invalid, return 0. 
+
+| Input          | Output |
+| -------------- | ------ |
+| 3, 0, 0, 4, 1, 1  | 2.5 |
+| 11, 7, 6, 8, 11, 7| -1 |
+| 0, 0, 0, 1, 0, 2 | 0 |
+
+
+#### Question 8e - Point in Triangle
+
+Write a function that takes three vertices of a triangle (x1, y1, x2, y2, x3, y3), and coordinates of a point. Return True if the point is inside the triangle, False otherwise. 
+
+| Input          | Output |
+| -------------- | ------ |
+| -3, 5, 9, 1, -6, -7, -2, 0  | True |
+| -3, 5, 9, 1, -6, -7, 9, 1| True |
+| -3, 5, 9, 1, -6, -7, 12, 1 | False |
+
+
+
