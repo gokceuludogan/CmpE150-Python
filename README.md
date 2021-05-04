@@ -35,3 +35,6 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 #### [Week6](week06/)
 * Nested Loops
 
+#### [Week7](week07/)
+* Functions
+
