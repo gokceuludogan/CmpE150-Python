@@ -153,7 +153,7 @@ Write a function that takes three vertices of a triangle (x1, y1, x2, y2, x3, y3
 | 11, 7, 6, 8, 11, 7| ZeroDivisionError |
 | 0, 0, 0, 1, 0, 2 | ValueError |
 
-#### Question 8d - Area
+#### Question 8e - Area
 
 Write a function that takes three vertices of a triangle (x1, y1, x2, y2, x3, y3), and returns the area. If the distance between any two points is zero, return -1. If the triangle is invalid, return 0. 
 
@@ -164,7 +164,7 @@ Write a function that takes three vertices of a triangle (x1, y1, x2, y2, x3, y3
 | 0, 0, 0, 1, 0, 2 | 0 |
 
 
-#### Question 8e - Point in Triangle
+#### Question 8f - Point in Triangle
 
 Write a function that takes three vertices of a triangle (x1, y1, x2, y2, x3, y3), and coordinates of a point. Return True if the point is inside the triangle, False otherwise. 
 
