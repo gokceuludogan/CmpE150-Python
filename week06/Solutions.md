@@ -244,6 +244,32 @@ while not bob_won:
 print("Bob was able to win after %d iterations!" % iteration)
 ```
 
+Alternative: 
+
+```python
+from random import randint
+
+max_score = int(input("Winning score: "))
+iteration = 0
+bob_won = False
+while not bob_won:
+    bob_score, sam_score = 0, 0
+    iteration += 1
+    while bob_score < max_score and sam_score < max_score:
+        bob_number = randint(0, 10)
+        sam_number = randint(0, 10)
+
+        if bob_number > sam_number:
+            bob_score += 1
+        elif sam_number > bob_number:
+            sam_score += 1
+
+    if bob_score == max_score and sam_score < max_score:
+        bob_won = True
+
+print("Bob was able to win after", iteration, "iterations!")
+```
+
 ## Question 10 - Palindromic Primes
 
 ```python
