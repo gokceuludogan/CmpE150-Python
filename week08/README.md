@@ -4,17 +4,16 @@
 
 Write a program that reads an integer N from the user, then reads N more integers from the user and store them in a list. Then prints elements larger than the average of numbers held in the array.
 
-| Input                         | Output     |
-| ----------------------------- | ---------- |
-| 10 <br />1 2 3 4 5 6 7 8 9 10 | 6 7 8 9 10 |
-| 4 <br />4 1 3 8               | 8          |
+| Input                                                        | Output     |
+| ------------------------------------------------------------ | ---------- |
+| 10 <br />1 <br />2 <br />3 <br />4 <br />5 <br />6 <br />7 <br />8 <br />9 <br />10 | 6 7 8 9 10 |
+| 4 <br />4 <br />1 <br />3 <br />8                            | 8          |
 
 
 
 ## Question 2 - Let's Count
 
-Write a function that takes a list and find frequency of each element in the list then prints. Assume the numbers in the
-list will be between 0 and 100 (inclusive).
+Write a function that takes a list and find frequency of each element in the list then prints. Assume the numbers in the list will be between 0 and 100 (inclusive).
 
 | INPUT                  | OUTPUT                                                       |
 | ---------------------- | ------------------------------------------------------------ |
@@ -24,7 +23,7 @@ list will be between 0 and 100 (inclusive).
 
 ## Question 3 - Fifth Powers
 
- List comprehensions might enable you to turn loop-based codes into one line elegant expressions. Write a program that takes 5 integers as input and prints a new list consisting of the fifth power of each number. Try to construct and print the new list in just one line.
+List comprehensions might enable you to turn loop-based codes into one line elegant expressions. Write a program that takes 5 integers as input and prints a new list consisting of the fifth power of each number. Try to construct and print the new list in just one line.
 
 | INPUT             | OUTPUT                      |
 | ----------------- | --------------------------- |
@@ -69,10 +68,10 @@ Write a program which reads a list of integers from the user and store them in a
 
 **b.** Then reverse the order of these integers in the array and print the array.
 
-| Input                  | Output         |
-| ---------------------- | -------------- |
-| 5 <br />3 1 -4 5 2     | 2 5 -4 1 3     |
-| 6 <br />15 7 2 89 8 12 | 12 8 89 2 7 15 |
+| Input          | Output         |
+| -------------- | -------------- |
+| 3 1 -4 5 2     | 2 5 -4 1 3     |
+| 15 7 2 89 8 12 | 12 8 89 2 7 15 |
 
 
 
@@ -102,7 +101,7 @@ Write a function that takes a list of integers then returns without consecutive 
 Write a function that takes a list of integers then returns without all duplicates.
 
 | Input                                   | Output          |
-| --------------------------------------- | --------------- |
+| --------------------------------------- | :-------------- |
 | [1, 1, 1, 1, 1, 2, 2, 2, 3, 2, 2, 4, 5] | [1, 2, 3, 4, 5] |
 | [0,0,0,0,0,0,0]                         | [0]             |
 
@@ -125,8 +124,8 @@ of occurrences then it should not print anything.
 
 Write a function which takes a list of integers and an integer n. This function will 'slice' the initial list into smaller lists such that individual sums of elements in each smaller list exceed n the first time while reading the elements of the list from left to right.
 
-| Input                                               | Output                                              |
-| --------------------------------------------------- | --------------------------------------------------- |
+| Input                                    | Output                                              |
+| ---------------------------------------- | --------------------------------------------------- |
 | [5, 3, 2, 1 ,4 ,51, 2, 1, 3, 5, 3, 5], 4 | [[5], [3, 2], [1, 4], [51], [2, 1, 3], [5], [3, 5]] |
 
 
@@ -168,18 +167,26 @@ Write a function that sorts elements of the list in ascending order.
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in
 wrong order.
 
-Example:
+**Example:**
 
-First Pass:
+**First Pass:**
 
-- ( **5** **1** 4 2 8 ) –> ( **1** **5** 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 >
+- ( **5** **1** 4 8 2 ) –> ( **1** **5** 4 8 2 ), Here, algorithm compares the first two elements, and swaps since 5 >
   1.
-- ( 1 **5** **4** 2 8 ) –> ( 1 **4** **5** 2 8 ), Swap since 5 > 4
-- ( 1 4 **5** **2** 8 ) –> ( 1 4 **2** **5** 8 ), Swap since 5 > 2
-- ( 1 4 2 **5** **8** ) –> ( 1 4 2 **5** **8** ), Now, since these elements are already in order (8 > 5), algorithm does
-  not swap them.
+- ( 1 **5** **4** 8 2 ) –> ( 1 **4** **5** 8 2 ), Swap since 5 > 4
+- ( 1 4 **5** **8** 2 ) –> ( 1 4 **5** **8** 2 ), since these elements are already in order (8 > 5), no swap.
+- ( 1 4 5 **8** **2** ) –> ( 1 4 5 **2** **8** ), Swap since 8 > 2.
 
-Second Pass:
+The largest element is at the end.
+
+**Second Pass:**
+
+- ( **1** **4** 5 2 8 ) –> ( **1** **4** 5 2 8 )
+- ( 1 **4** **5** 2 8 ) –> ( 1 **4** **5** 2 8 )
+- ( 1 4 **5** **2** 8 ) –> ( 1 4 **2** **5** 8 ), Swap since 5 > 2
+- ( 1 4 2 **5** **8** ) –> ( 1 4 2 **5** **8** )
+
+**Third Pass:**
 
 - ( **1** **4** 2 5 8 ) –> ( **1** **4** 2 5 8 )
 - ( 1 **4** **2** 5 8 ) –> ( 1 **2** **4** 5 8 ), Swap since 4 > 2
@@ -189,7 +196,7 @@ Second Pass:
 Now, the array is already sorted, but our algorithm does not know if it is completed. The algorithm needs one whole pass
 without any swap to know it is sorted.
 
-Third Pass:
+**Fourth Pass:**
 
 - ( **1** **2** 4 5 8 ) –> ( **1** **2** 4 5 8 )
 - ( 1 **2** **4** 5 8 ) –> ( 1 **2** **4** 5 8 )
