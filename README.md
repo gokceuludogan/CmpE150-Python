@@ -44,3 +44,7 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 #### [Week9](week09/)
 
 - Lists/Tuples
+
+#### [Week10](week10/)
+
+- Strings
