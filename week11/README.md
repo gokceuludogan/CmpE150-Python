@@ -65,7 +65,7 @@ Write a program that takes a string, then create a dictionary which has letters 
 
 | INPUT                     | OUTPUT                                                       |
 | ------------------------- | ------------------------------------------------------------ |
-| What we think, we become. | e -> 0.21 <br />w -> 0.16 <br />h -> 0.11 <br />t -> 0.11 <br />a -> 0.05 <br />b -> 0.05 <br />c -> 0.05<br /> i -> 0.05 <br />k -> 0.05 <br />m -> 0.05 <br />n -> 0.05 <br /o -> 0.05 |
+| What we think, we become. | e -> 0.21 <br />w -> 0.16 <br />h -> 0.11 <br />t -> 0.11 <br />a -> 0.05 <br />b -> 0.05 <br />c -> 0.05<br />i -> 0.05 <br />k -> 0.05 <br />m -> 0.05 <br />n -> 0.05 <br />o -> 0.05 |
 
 ## Question 3 - Zip Two Lists
 
