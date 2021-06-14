@@ -47,7 +47,7 @@ Write a program which reads the file corrected.txt and calculates the average gr
 
 | corrected.txt                                                | output |
 | ------------------------------------------------------------ | ------ |
-| 70 85 0 0 20 100 <br> 100 50 45 30 0 90 <br> 0 50 30 25 60 85 | 44.17  |
+| 70 85 0 0 20 100 <br> 100 50 45 30 0 90 <br> 0 50 30 25 60 85 | 46.17  |
 
 # Dictionary
 
