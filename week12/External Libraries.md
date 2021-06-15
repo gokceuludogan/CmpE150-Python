@@ -69,3 +69,8 @@
 
   ![1623752067689](figures/1623752067689.png)
 
+
+## Widely used Python libraries: Numpy and Pandas: available [here](Widely%20used%20Python%20libraries%20Numpy%20and%20Pandas.ipynb) as a jupyter notebook
+## Exploring ‘Game Of Thrones’ Battles: available [here](Exploring%20'Game%20of%20Thrones'%20Battles.ipynb) as a jupyter notebook
+
+
