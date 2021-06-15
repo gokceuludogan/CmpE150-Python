@@ -48,3 +48,15 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 #### [Week10](week10/)
 
 - Strings
+
+#### [Week11](week11/)
+
+- Files
+- Dictionaries
+
+#### [Week12](week12/)
+
+- Dictionaries
+- Sets
+- External Libraries
+
