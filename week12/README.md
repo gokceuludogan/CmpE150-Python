@@ -47,7 +47,7 @@ Write a program that prompts the user for a sentence. Split the sentence into wo
 
 | INPUT                                                        | OUTPUT                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------- |
-| "one two two three three four four four four"                | "four three two one"                                    |
+| "one two two three three four four four four"                | "four two three one"                                    |
 | "fair is foul and foul is fair"                              | "fair is foul and"                                      |
 | "How much wood would a woodchuck chuck if a woodchuck could chuck wood?" | "a woodchuck chuck How much wood would if could wood? " |
 
