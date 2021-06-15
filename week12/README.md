@@ -93,13 +93,14 @@ People need to have common things to be friends. Let's say we have a set for eve
 | --------------------- | ------ |
 | {1,2,3,4,5} {4,5,6,7} | 9      |
 
-## Question 4 - Anagram
+## Question 4 - Distinct
 
-Write a function that takes two strings as arguments and returns whether these strings consist of same letters. Ignore case.
+A distinct string is a string whose all characters occurs only once.
 
-| Input             | Output |
-| ----------------- | ------ |
-| Listen silent     | True   |
-| triANGLE integral | True   |
-| caution action    | False  |
+Write a function that takes a string as an argument and checks whether given string is distinct or not.
 
+| Input                 | Output |
+| --------------------- | ------ |
+| dwarf                 | True   |
+| violate               | True   |
+| violation             | False  | 
