@@ -47,7 +47,7 @@ Write a program that prompts the user for a sentence. Split the sentence into wo
 
 | INPUT                                                        | OUTPUT                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------- |
-| "one two two three three four four four four"                | "four three two one"                                    |
+| "one two two three three four four four four"                | "four two three one"                                    |
 | "fair is foul and foul is fair"                              | "fair is foul and"                                      |
 | "How much wood would a woodchuck chuck if a woodchuck could chuck wood?" | "a woodchuck chuck How much wood would if could wood? " |
 
@@ -93,13 +93,14 @@ People need to have common things to be friends. Let's say we have a set for eve
 | --------------------- | ------ |
 | {1,2,3,4,5} {4,5,6,7} | 9      |
 
-## Question 4 - Anagram
+## Question 4 - Distinct
 
-Write a function that takes two strings as arguments and returns whether these strings consist of same letters. Ignore case.
+A distinct string is a string whose all characters occurs only once.
 
-| Input             | Output |
-| ----------------- | ------ |
-| Listen silent     | True   |
-| triANGLE integral | True   |
-| caution action    | False  |
+Write a function that takes a string as an argument and checks whether given string is distinct or not.
 
+| Input                 | Output |
+| --------------------- | ------ |
+| dwarf                 | True   |
+| violate               | True   |
+| violation             | False  | 
