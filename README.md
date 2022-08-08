@@ -60,3 +60,7 @@ Bogazici University CmpE 150 Introduction to Computing (Python programming langu
 - Sets
 - External Libraries
 
+
+# Fall 2021 Materials
+* [Notes](https://github.com/bouncmpe150/python-notes)
+* [Slides](https://bouncmpe150.github.io/python-slides/)
